@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nguyenvanthatps28581</title>
+    <link rel="stylesheet" href="../css/hh.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .header{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(18, 232, 232);
+            position: relative;
+        }
+        .header img{
+            height: 50px;
+        }
+        .thead{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+            
+        }
+        .thead li{
+            display: inline-block;
+            list-style: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 16px 10px;
+        }
+        .loghead{
+            position: absolute;
+            top: 50%;
+            right: 3%;
+            translate: 0 -50%;
+        }
+        .loghead li{
+            height: 100px;
+            display: inline-block;
+            list-style: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 20px 20px;
+        }
+        li:hover{
+            background-color: red;
+        }
+        .bgr{
+            position: relative;
+        }
+        .img-bgr{
+            height: 600px;
+            background: url(../img/Hinh-nen-sieu-xe-0.jpg) no-repeat;
+            background-size: 100% auto;
+            text-align: center;
+            background-position: center center;
+            opacity: 0.6;
+        }
+        .bgr .text-bgr{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+        }
+        .bgr h1{
+            color: rgb(24, 12, 12);
+            text-shadow: 0 0 5px rgb(161, 131, 131);
+            font-size: 28px;
+        }
+        .bgr h3{
+            color: white;
+            font-size: 28px;
+        }
+        img{
+            max-width: 200px;
+            height: auto;
+        }
+        h3{
+            color: blue;
+            margin-top: 0;
+        }
+        td{
+            vertical-align: top;
+        }
+        .r1{
+            margin-top: 1%;
+            left: 5%;
+        }
+        .anhcha{
+    width:125%;
+    height:700px;
+    margin-top:px;
+}
+.anh{
+    width:9%;
+    height:370px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.anh img{
+    width:60%;
+    margin-left:26px;
+    margin-top:19px;
+}
+.phu{
+   width:50%;
+   height:400px;
+   margin-left:180px;
+   margin-top:-352px;
+}
+.phu img{
+    width:100%;
+    height:60%;
+}
+.tieude{
+    width:65%;
+    height:30px;
+    float:right;
+    margin-right:50px;
+    margin-top:-395px;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    letter-spacing: 1px;
+}
+.tieude1{
+    color:black;
+    height:30px;
+}
+
+.giado{
+    position:absolute;
+    margin-top:40px;
+    color:black;
+}
+.tieude .giado{
+    color:#980a20;
+    font-size: 15px;
+    font-family: 'Helvetica-Bold';
+}
+.tieude del{
+    color:black;
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #000;
+    font-family: 'Helvetica';
+}
+.giam{
+    margin-top:65px;
+    margin-left:0px;
+    float:left;
+    position:absolute;
+    width:20%;
+}
+.apply{
+    background-color:black;
+    position:absolute;
+    display: inline-block;
+    padding: 1px 5px;
+    margin-left:150px;
+    margin-top:65px;
+    border-radius:5px;
+}
+.giamgia{
+    color:white;
+    text-align:center;
+    font-size:smaller;
+} 
+.sodo{
+    width:30%;
+    height:30px;
+    margin-top:100px;
+}
+.chart{
+    text-transform: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sodo h5{
+    text-transform: none;
+}
+.màu{
+    text-decoration:none;
+    color:white;
+    background-color:#555;
+    display:inline-flex;
+    padding: 5px 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 1;
+    margin-top:0px;
+    
+}
+.màu:hover{
+   background-color:black;
+}
+.add{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    width:20%;
+    height:30px;
+}
+.bag{
+    background-color:black;
+    position:absolute;
+    display: inline-block;
+    padding: 10px 70px;
+    margin-left:-112px;
+    margin-top:55px;
+}
+#footer{
+    width:100%;
+    height:300px;
+    margin-top:100px;
+    border:1px solid black;
+    background-color:#888;
+}
+.chinh{
+    margin-top:35px;
+    color:black;
+    margin-left:50px;
+    display:block;
+    width:15%;
+}
+p{
+    color:black;
+    margin-top:8px;
+    margin-left:50px;
+    position:absolute;
+    width:35%;
+}
+.sdt{
+    color:black;
+    margin-top:25px;
+    margin-left:50px;
+    width:15%;
+}
+.mail{
+    color:black;
+    margin-top:40px;
+    margin-left:50px;
+}
+.chinh:hover{
+    color:#980a20;
+}
+.us{
+    margin-left:600px;
+    color:black;
+    margin-top:-20px;
+    width:10%;
+}
+.us:hover{
+    color:#980a20;
+}
+.su{
+    margin-left:600px;
+    margin-top:8px;
+}
+.con{
+    margin-left:600px;
+    margin-top:24px;
+}
+.de{
+    margin-left:600px;
+    margin-top:40px;
+}
+.theodoi{
+    margin-left:1000px;
+    color:black;
+    margin-top:-20px;
+    width:15%;
+    height:50px;
+}
+.cuoi{
+    width:30px;
+    float:right;
+    margin-right:270px;
+    margin-top:-30px;
+}
+.theodoi:hover{
+    color:#980a20;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="../img/FPT_Polytechnic.png" alt="logo">
+        <div class="thead">
+            <ul>
+                <li>Trang chủ</li>
+                <li>Giới thiệu</li>
+                <li>Tin Tức</li>
+               <a href="http://127.0.0.1:5500/trangcon.html"><li>Sản Phẩm</li></a>
+                <li>Dịch vụ </li>
+                <li>Đánh giá xe</li>
+                <li>Liên hệ</li>
+            </ul>
+        </div>
+        <div class="loghead">
+            <ul>
+                <input type="text"placeholder=" Tìm kiếm:" width="100px">
+            </ul>
+        </div>
+    </div>
+    <div class="bgr">
+        <div class="img-bgr">
+        </div>
+        <div class="r1">
+            <h2>MẪU SẢN PHẨM</h2><hr>
+            <div>
+                <div class="anhcha">
+                    <div class="anh">
+                        <a href="">
+                            <img src="../img/YZK R7.jpg" alt="" class="xe1">
+                            <img src="../img/z1000.jpg" alt="" class="xe1">
+                            <img src="../img/bủini.jpg" alt="" class="xe1">
+                        </a>
+                    </div>
+                    <div class="phu">
+                        <a href="">
+                            <img src="../img/rs 660.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="tieude">
+                        <a href="">
+                            <h4 class="tieude1">Champion Heritage Custom Big Logo Tee-Black</h4>
+                            <span class="giado">
+                              <del>2.000$</del> 1.800$
+                            </span>
+                            <a class="giam">
+                                <input type="text" placeholder="Nhập mã xe"/>
+                            </a>
+                            <a href="" class="apply">
+                                <span class="giamgia" >
+                                    Apply
+                                </span>
+                            </a>
+                            <div class="sodo">
+                                <p class="chart">
+                                    <h5>Màu:</h5>
+                                </p>  
+                             <a href="" class="màu">
+                                V
+                             </a>    
+                             <a href="" class="màu">
+                                Đ
+                             </a> 
+                             <a href="" class="màu">
+                                X
+                             </a>
+                             <a href="" class="màu">
+                                H
+                             </a> 
+                             <a href="" class="add">
+                                <span class="bag" >
+                                    Add To Bag
+                                </span>
+                            </a>
+                            </div>
+                         </div>  
+                     </div>
+                    <div id="footer">
+                        <div class="text">
+                            <h4 class="chinh">Thông Tin Cửa Hàng</h4>
+                            <p>
+                                Địa chỉ: 198/66 Trịnh Thị Miếng, Hooc Môn, TP HCM.
+                            </p>
+                            <p class="sdt">
+                                Điện thoại: 0946288197
+                            </p>
+                            <p class="mail">
+                                Email: thatnguyenqng2004@gmail.com
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h4 class="us">Chính Sách</h4>
+                            <p class="su">
+                                About Us
+                            </p>
+                            <p class="con">
+                                Contact
+                            </p>
+                            <p class="de">
+                                Delivery & Returns
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h4 class="theodoi">Follow Us</h4>
+                            <a href="">
+                                <img src="images/black-instagram-icon-21.png" alt="" class="cuoi">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
+
+
+            
